@@ -1,13 +1,17 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2? família=Inter&display=swap');
 
-/*body{
-    background-image:url(imagens/fundo-papel.jpg);
-}*/
 
-/*.fundo{
-    background: rgba(164, 12, 247, 0.27);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.3px);
-    -webkit-backdrop-filter: blur(6.3px);
-}*/
+
+.fundo{
+    background-color: #770AF7;
+}
+
+.calculadora{
+    background-color: #C4C4C4;
+    width: 20%;
+}
+
+button{
+    border-radius: 50%;
+}
