@@ -28,31 +28,39 @@
                     <td><button style="background-color: #F6A577;">÷</button></td>
                 </tr>
                 <tr>
-                    <td><button>7</button></td> 
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
+                    <td><button oneclick="insert ('7')">7</button></td> 
+                    <td><button oneclick="insert ('8')">8</button></td>
+                    <td><button oneclick="insert ('9')">9</button></td>
                     <td><button style="background-color: #F6A577;">x</button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td> 
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
+                    <td><button oneclick="insert ('4')">4</button></td> 
+                    <td><button oneclick="insert ('5')">5</button></td>
+                    <td><button oneclick="insert ('6')">6</button></td>
                     <td><button style="background-color: #F6A577;">-</button></td>
                 </tr>
                 <tr>
-                    <td><button>1</button></td> 
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
+                    <td><button oneclick="insert ('1')">1</button></td> 
+                    <td><button oneclick="insert ('2')">2</button></td>
+                    <td><button oneclick="insert ('3')">3</button></td>
                     <td><button style="background-color: #F6A577;">+</button></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button class="botao0">0</button></td> 
+                    <td colspan="2"><button class="botao0" oneclick="insert ('0')">0</button></td> 
                     <td><button>,</button></td>
                     <td><button style="background-color: #F6A577;">=</button></td>
                 </tr>
             </table>
         </div>
     </div>
+
+    <script>
+        function insert(num)
+        {
+            document.getElementById ('resultado').innerHTML= num;
+        }
+
+    </script>
         
         
 
