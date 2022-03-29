@@ -23,26 +23,26 @@
             <table>
                 <tr>
                     <td><button class="material-icons" style="background-color: #FFF282;">backspace</button></td> 
-                    <td><button style="background-color: #FFF282">C</button></td>
+                    <td><button class="especial" onclick="excluir ()">C</button></td>
                     <td><button style="background-color:#FFF282">%</button></td>
                     <td><button style="background-color: #F6A577;">÷</button></td>
                 </tr>
                 <tr>
-                    <td><button oneclick="insert ('7')">7</button></td> 
-                    <td><button oneclick="insert ('8')">8</button></td>
-                    <td><button oneclick="insert ('9')">9</button></td>
+                    <td><button onclick="insert ('7')">7</button></td> 
+                    <td><button onclick="insert ('8')">8</button></td>
+                    <td><button onclick="insert ('9')">9</button></td>
                     <td><button style="background-color: #F6A577;">x</button></td>
                 </tr>
                 <tr>
-                    <td><button oneclick="insert ('4')">4</button></td> 
-                    <td><button oneclick="insert ('5')">5</button></td>
-                    <td><button oneclick="insert ('6')">6</button></td>
+                    <td><button onclick="insert ('4')">4</button></td> 
+                    <td><button onclick="insert ('5')">5</button></td>
+                    <td><button onclick="insert ('6')">6</button></td>
                     <td><button style="background-color: #F6A577;">-</button></td>
                 </tr>
                 <tr>
-                    <td><button oneclick="insert ('1')">1</button></td> 
-                    <td><button oneclick="insert ('2')">2</button></td>
-                    <td><button oneclick="insert ('3')">3</button></td>
+                    <td><button onclick="insert ('1')">1</button></td> 
+                    <td><button onclick="insert ('2')">2</button></td>
+                    <td><button onclick="insert ('3')">3</button></td>
                     <td><button style="background-color: #F6A577;">+</button></td>
                 </tr>
                 <tr>
@@ -54,10 +54,15 @@
         </div>
     </div>
 
-    <script>
-        function insert(num)
-        {
-            document.getElementById ('resultado').innerHTML= num;
+    <script> 
+
+        function insert(num){
+            var numero=document.getElementById ('resultado').innerHTML;
+            document.getElementById('resultado').innerHTML = numero + num
+        }
+
+        function excluir(){
+            document.getElementById ('resultado').innerHTML =''
         }
 
     </script>
