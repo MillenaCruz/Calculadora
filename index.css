@@ -49,6 +49,7 @@ button:hover{
     left:555px;
     border-radius:90px;
     text-align: left;
+    padding-left: 15px;
 }
 
 #resultado{
@@ -65,7 +66,11 @@ button:hover{
     font-size: 50px;
     line-height: 100px;
     text-align: right;
+
+    overflow: auto;
 }
+
+
 
 .especial{
     background-color: #FFF282
