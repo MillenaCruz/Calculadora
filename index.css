@@ -58,8 +58,20 @@ button:hover{
     border-radius: 30px;
     margin: 5px;
     color: black;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: right;
 }
 
 .especial{
     background-color: #FFF282
+}
+
+.operacao{
+    background-color: #F6A577
+
 }
