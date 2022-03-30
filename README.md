@@ -1,6 +1,11 @@
 # Calculadora
 Calculadora funcional em Flat Design
 
+
+acesse o projeto: 
+
+https://millenacruz.github.io/Calculadora/
+
 expectativa de projeto:
 
 
